@@ -1,20 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #3a3a3a;
     margin: 0;
     padding: 0;
+    color: #ffffff;
+    text-align: center;
 }
 header {
-    background-color: #4CAF50;
+    background-color: #9109c3;
     color: white;
     padding: 15px;
     text-align: center;
+}
+ul{
+        list-style: none;
 }
 main {
     padding: 20px;
 }
 footer {
-    background-color: #333;
+    background-color: #9109c3;
     color: white;
     text-align: center;
     padding: 10px;
@@ -23,7 +28,7 @@ footer {
     width: 100%;
 }
 .btn {
-    background-color: #4CAF50;
+    background-color: #9109c3;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -33,5 +38,5 @@ footer {
     border-radius: 2vw;
 }
 .btn:hover {
-    background-color: #45a049;
+    background-color: #55087e;
 }
