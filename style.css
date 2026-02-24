@@ -6,18 +6,22 @@ body {
     color: #ffffff;
     text-align: center;
 }
+
 header {
     background-color: #9109c3;
     color: white;
     padding: 15px;
     text-align: center;
 }
+
 ul{
         list-style: none;
 }
+
 main {
     padding: 20px;
 }
+
 footer {
     background-color: #9109c3;
     color: white;
@@ -27,6 +31,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .btn {
     background-color: #9109c3;
     color: white;
@@ -35,10 +40,11 @@ footer {
     cursor: pointer;
     text-align: center;
     display: inline-block;
+    transition: 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #55087e;
 }
 
 .formulario {
@@ -46,7 +52,4 @@ footer {
     flex-direction: column;
     align-items: center;
     border-radius: 2vw;
-}
-.btn:hover {
-    background-color: #55087e;
 }
