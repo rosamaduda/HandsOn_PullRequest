@@ -35,7 +35,7 @@ footer {
     cursor: pointer;
     text-align: center;
     display: inline-block;
-    margin-top: 40px;
+    border-radius: 2vw;
 }
 .btn:hover {
     background-color: #55087e;
