@@ -1,3 +1,8 @@
+:root {
+    --rosalya: #001369;
+    --purple-rain: #9109c3;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #3a3a3a;
@@ -5,10 +10,11 @@ body {
     padding: 0;
     color: #ffffff;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 header {
-    background-color: #9109c3;
+    background-color: var(--purple-rain);
     color: white;
     padding: 15px;
     text-align: center;
@@ -16,6 +22,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 img{
     width: 50px;
     height: 50px;
@@ -23,7 +30,7 @@ img{
 }
 
 ul{
-        list-style: none;
+    list-style: none;
 }
 
 main {
@@ -31,7 +38,7 @@ main {
 }
 
 footer {
-    background-color: #9109c3;
+    background-color: var(--purple-rain);
     color: white;
     text-align: center;
     padding: 10px;
@@ -41,7 +48,7 @@ footer {
 }
 
 .btn {
-    background-color: #9109c3;
+    background-color: var(--purple-rain);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -59,5 +66,42 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 2vw;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.formulario label {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.formulario input:focus {
+    outline: none;
+}
+
+.formulario button {
+    cursor: pointer;
+    height: 30px;
+    width: 75px;
+    margin-top: 20px;
+    transition: 0.2s ease-in-out;
+    background: var(--rosalya);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.formulario button:hover {
+    transform: scale(1.25) rotate(360deg);
 }
